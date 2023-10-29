@@ -1,1 +1,1 @@
-{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://and-har.github.io/skohub-docker-vocabs/scheme","fields":{"languages":["de","en"]}}},{"node":{"id":"https://example.org/colour-with-hierarchy/","fields":{"languages":["en","de"]}}}]}}}
+{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://example.org/colour/scheme","fields":{"languages":["de","en"]}}},{"node":{"id":"https://example.org/colour-with-hierarchy/","fields":{"languages":["en","de"]}}}]}}}
