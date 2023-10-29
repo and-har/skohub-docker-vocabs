@@ -1,5 +1,5 @@
 {
-  "id": "http://purl.org//thesaurus_systematik/bamf/4.60",
+  "id": "http://purl.org/thesaurus_systematik/bamf/4.60",
   "type": "Concept",
   "prefLabel": {
     "de": "Politische Auseinandersetzungen und Konflikte, Bürgerkriege und Kriege, Terrorismus",
@@ -10,28 +10,28 @@
   ],
   "narrower": [
     {
-      "id": "http://purl.org//thesaurus_systematik/bamf/4.61",
+      "id": "http://purl.org/thesaurus_systematik/bamf/4.61",
       "prefLabel": {
         "de": "Widerstand und Extremismus, Gewalt und Unruhen",
         "en": "Resistance and extremism, violence and unrest"
       }
     },
     {
-      "id": "http://purl.org//thesaurus_systematik/bamf/4.62",
+      "id": "http://purl.org/thesaurus_systematik/bamf/4.62",
       "prefLabel": {
         "de": "Autonomie-, Sezessions- und Unabhängigkeitsbewegungen, Bürgerkrieg",
         "en": "Autonomy, secession and independence movements, civil war"
       }
     },
     {
-      "id": "http://purl.org//thesaurus_systematik/bamf/4.63",
+      "id": "http://purl.org/thesaurus_systematik/bamf/4.63",
       "prefLabel": {
         "de": "Bilaterale und regionale Konflikte und Kriege",
         "en": "Bilateral and regional conflicts and wars"
       }
     },
     {
-      "id": "http://purl.org//thesaurus_systematik/bamf/4.64",
+      "id": "http://purl.org/thesaurus_systematik/bamf/4.64",
       "prefLabel": {
         "de": "Terrorismus und terroristische Aktivitäten",
         "en": "Terrorism and terrorist activities"
@@ -40,7 +40,7 @@
   ],
   "inScheme": [
     {
-      "id": "http://purl.org//thesaurus_systematik/bamf/scheme",
+      "id": "http://purl.org/thesaurus_systematik/bamf/scheme",
       "title": {
         "de": "Auszug aus dem systematischen Teil des Thesaurus",
         "en": "Excerpt from the systematic section of the thesaurus"
@@ -49,12 +49,12 @@
   ],
   "inSchemeAll": [
     {
-      "id": "http://purl.org//thesaurus_systematik/bamf/scheme"
+      "id": "http://purl.org/thesaurus_systematik/bamf/scheme"
     }
   ],
   "topConceptOf": [
     {
-      "id": "http://purl.org//thesaurus_systematik/bamf/scheme",
+      "id": "http://purl.org/thesaurus_systematik/bamf/scheme",
       "title": {
         "de": "Auszug aus dem systematischen Teil des Thesaurus",
         "en": "Excerpt from the systematic section of the thesaurus"

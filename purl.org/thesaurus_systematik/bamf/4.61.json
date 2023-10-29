@@ -1,5 +1,5 @@
 {
-  "id": "http://purl.org//thesaurus_systematik/bamf/4.61",
+  "id": "http://purl.org/thesaurus_systematik/bamf/4.61",
   "type": "Concept",
   "prefLabel": {
     "de": "Widerstand und Extremismus, Gewalt und Unruhen",
@@ -9,7 +9,7 @@
     "4.61"
   ],
   "broader": {
-    "id": "http://purl.org//thesaurus_systematik/bamf/4.60",
+    "id": "http://purl.org/thesaurus_systematik/bamf/4.60",
     "prefLabel": {
       "de": "Politische Auseinandersetzungen und Konflikte, Bürgerkriege und Kriege, Terrorismus",
       "en": "Political disputes and conflicts, civil wars and wars, terrorism"
@@ -17,7 +17,7 @@
   },
   "inScheme": [
     {
-      "id": "http://purl.org//thesaurus_systematik/bamf/scheme",
+      "id": "http://purl.org/thesaurus_systematik/bamf/scheme",
       "title": {
         "de": "Auszug aus dem systematischen Teil des Thesaurus",
         "en": "Excerpt from the systematic section of the thesaurus"
@@ -26,7 +26,7 @@
   ],
   "inSchemeAll": [
     {
-      "id": "http://purl.org//thesaurus_systematik/bamf/scheme"
+      "id": "http://purl.org/thesaurus_systematik/bamf/scheme"
     }
   ],
   "@context": {
