@@ -17,7 +17,7 @@
   },
   "inScheme": [
     {
-      "id": "http://purl.org/thesaurus_systematik/bamf/",
+      "id": "http://purl.org/thesaurus_systematik/bamf/scheme",
       "title": {
         "de": "Auszug aus dem systematischen Teil des Thesaurus",
         "en": "Excerpt from the systematic section of the thesaurus"
@@ -26,7 +26,7 @@
   ],
   "inSchemeAll": [
     {
-      "id": "http://purl.org/thesaurus_systematik/bamf/"
+      "id": "http://purl.org/thesaurus_systematik/bamf/scheme"
     }
   ],
   "@context": {
