@@ -9,34 +9,131 @@
   dct:description "Die Systematikgruppe 4 aus dem systematischen Teil des Thesaurus der Bibliothek des Bundesamts für Migration und Flüchtlinge"@de, "Classification group 4 from the systematic part of the thesaurus of the Library of the Federal Office for Migration and Refugees"@en ;
   dct:creator "http://viaf.org/viaf/26968941" ; #Identifier
   dct:issued "2022-01", "Version 4" ; #1.Angabe nach ISO 8601
-  skos:hasTopConcept <4.0>, <4.50>, <4.60>, <4.70>, <4.80>.
+  skos:hasTopConcept <4.0>, <4.10>, <4.20>, <4.30>, <4.40>, <4.50>, <4.60>, <4.70>, <4.80>.
 
 <4.0> a skos:Concept ;
   skos:prefLabel "Politik und Sicherheitsfragen"@de, "Political and security issues"@en ;
   skos:notation "4.0" ;
+  skos:narrover <4.10>, <4.20>, <4.30>, <4.40>, <4.50>, <4.60>, <4.70>, <4.80> ;
   skos:topConceptOf <scheme> .
+
+<4.10> a skos:Concept ;
+  skos:prefLabel "Politische Philosophien und Ideologien, Herrschaftsformen"@de, "Political philosophies and ideologies, forms of rule"@en ;
+  skos:notation "4.10" ;
+  skos:broader <4.00> ;
+  skos:inScheme <scheme> .
+
+<4.20> a skos:Concept ;
+  skos:prefLabel "Politische Situation, Politische Prozesse und Politischer Wandel"@de, "Political situation, political processes and political change"@en ;
+  skos:notation "4.20" ;
+  skos:broader <4.00> ;
+  skos:inScheme <scheme> .
+
+<4.30> a skos:Concept ;
+  skos:prefLabel "Politisches System"@de, "Political system"@en ;
+  skos:notation "4.30" ;
+  skos:broader <4.00> ;
+  skos:narrower <4.31>, <4.32>, <4.33>, <4.34>, <4.35>, <4.36> ;
+  skos:inScheme <scheme> .
+
+<4.40> a skos:Concept ;
+  skos:prefLabel "Politikfelder"@de, "Policy areas"@en ;
+  skos:notation "4.40" ;
+  skos:broader <4.00> ;
+  skos:narrower <4.41>, <4.42>, <4.43>, <4.44>, <4.45> ;
+  skos:inScheme <scheme> .
 
 <4.50> a skos:Concept ;
   skos:prefLabel "Innere Sicherheit und politische Kontrolle"@de, "Internal security and political control"@en ;
   skos:notation "4.50" ;
+  skos:broader <4.00> ;
   skos:narrower <4.51>, <4.52>, <4.53>, <4.54> ;
   skos:topConceptOf <scheme> .
 
 <4.60> a skos:Concept ;
   skos:prefLabel "Politische Auseinandersetzungen und Konflikte, Bürgerkriege und Kriege, Terrorismus"@de, "Political disputes and conflicts, civil wars and wars, terrorism"@en ;
   skos:notation "4.60" ;
+  skos:broader <4.00> ;
   skos:narrower <4.61>, <4.62>, <4.63>, <4.64> ;
   skos:topConceptOf <scheme> .
 
 <4.70> a skos:Concept ;
   skos:prefLabel "Maßnahmen im politischen Konflikt"@de, "Measures in political conflict"@en ;
   skos:notation "4.70" ;
+  skos:broader <4.00> ;
   skos:topConceptOf <scheme> .
 
 <4.80> a skos:Concept ;
   skos:prefLabel "Politische Zusammenarbeit und Konfliktbewältigung"@de, "Political cooperation and conflict management"@en ;
   skos:notation "4.80" ;
+  skos:broader <4.00> ;
   skos:topConceptOf <scheme> .
+
+<4.31> a skos:Concept ;
+  skos:prefLabel "Legislative"@de, "Legislative"@en ;
+  skos:notation "4.31" ;
+  skos:broader <4.30> ;
+  skos:inScheme <scheme> .
+
+<4.32> a skos:Concept ;
+  skos:prefLabel "Exekutive"@de, "Executive"@en ;
+  skos:notation "4.32" ;
+  skos:broader <4.30> ;
+  skos:inScheme <scheme> .
+
+<4.33> a skos:Concept ;
+  skos:prefLabel "Politische Parteien und Institutionen"@de, "Political parties and institutions"@en ;
+  skos:notation "4.33" ;
+  skos:broader <4.30> ;
+  skos:inScheme <scheme> .
+
+<4.34> a skos:Concept ;
+  skos:prefLabel "Interessengruppen und sonstige politische Gruppierungen"@de, "Interest groups and other political groups"@en ;
+  skos:notation "4.34" ;
+  skos:broader <4.30> ;
+  skos:inScheme <scheme> .
+
+<4.35> a skos:Concept ;
+  skos:prefLabel "Öffentliche Verwaltung, staatliche Gliederung"@de, "Public administration, state structure"@en ;
+  skos:notation "4.35" ;
+  skos:broader <4.30> ;
+  skos:inScheme <scheme> .
+
+<4.36> a skos:Concept ;
+  skos:prefLabel "Justiz, Justizverwaltung "@de, "Justice, judicial administration"@en ;
+  skos:notation "4.36" ;
+  skos:broader <4.30> ;
+  skos:inScheme <scheme> .
+
+<4.41> a skos:Concept ;
+  skos:prefLabel "Innenpolitik"@de, "Domestic politics"@en ;
+  skos:notation "4.41" ;
+  skos:broader <4.40> ;
+  skos:inScheme <scheme> .
+
+<4.42> a skos:Concept ;
+  skos:prefLabel "Wirtschaftspolitik"@de, "Economic policy"@en ;
+  skos:notation "4.42" ;
+  skos:broader <4.40> ;
+  skos:inScheme <scheme> .
+
+<4.43> a skos:Concept ;
+  skos:prefLabel "Arbeits- und Sozialpolitik"@de, "Labor and social policy"@en ;
+  skos:notation "4.43" ;
+  skos:broader <4.40> ;
+  skos:inScheme <scheme> .
+
+<4.44> a skos:Concept ;
+  skos:prefLabel "Außen- und Sicherheitspolitik, Internationale Politik einschl. Entwicklungshilfe"@de, "Foreign and security policy, international politics including development aid"@en ;
+  skos:notation "4.44" ;
+  skos:broader <4.40> ;
+  skos:inScheme <scheme> .
+
+<4.45> a skos:Concept ;
+  skos:prefLabel "Sonstige Politikbereiche "@de, "Other policy areas"@en ;
+  skos:notation "4.45" ;
+  skos:broader <4.40> ;
+  skos:inScheme <scheme> .
 
 <4.51> a skos:Concept ;
   skos:prefLabel "Polizei und nichtmilitärische Sicherheitsorgane"@de, "Police and non-military security agencies"@en ;
