@@ -21,12 +21,14 @@
   skos:prefLabel "Politische Philosophien und Ideologien, Herrschaftsformen"@de, "Political philosophies and ideologies, forms of rule"@en ;
   skos:notation "4.10" ;
   skos:broader <4.00> ;
+  skos:topConceptOf <scheme> ;
   skos:inScheme <scheme> .
 
 <4.20> a skos:Concept ;
   skos:prefLabel "Politische Situation, Politische Prozesse und Politischer Wandel"@de, "Political situation, political processes and political change"@en ;
   skos:notation "4.20" ;
   skos:broader <4.00> ;
+  skos:topConceptOf <scheme> ;
   skos:inScheme <scheme> .
 
 <4.30> a skos:Concept ;
@@ -34,6 +36,7 @@
   skos:notation "4.30" ;
   skos:broader <4.00> ;
   skos:narrower <4.31>, <4.32>, <4.33>, <4.34>, <4.35>, <4.36> ;
+  skos:topConceptOf <scheme> ;
   skos:inScheme <scheme> .
 
 <4.40> a skos:Concept ;
@@ -41,6 +44,7 @@
   skos:notation "4.40" ;
   skos:broader <4.00> ;
   skos:narrower <4.41>, <4.42>, <4.43>, <4.44>, <4.45> ;
+  skos:topConceptOf <scheme> ;
   skos:inScheme <scheme> .
 
 <4.50> a skos:Concept ;
