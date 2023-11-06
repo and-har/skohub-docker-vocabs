@@ -11,41 +11,37 @@
   dct:issued "2022-01", "Version 4" ; #1.Angabe nach ISO 8601
   skos:hasTopConcept <4.0>, <4.10>, <4.20>, <4.30>, <4.40>, <4.50>, <4.60>, <4.70>, <4.80>.
 
-<4.0> a skos:Concept ;
+<4.00> a skos:Concept ;
   skos:prefLabel "Politik und Sicherheitsfragen"@de, "Political and security issues"@en ;
-  skos:notation "4.0" ;
-  skos:narrover <4.10>, <4.20>, <4.30>, <4.40>, <4.50>, <4.60>, <4.70>, <4.80> ;
+  skos:notation "4.00" ;
+  skos:narrower <4.10>, <4.20>, <4.30>, <4.40>, <4.50>, <4.60>, <4.70>, <4.80> ;
   skos:topConceptOf <scheme> .
 
 <4.10> a skos:Concept ;
   skos:prefLabel "Politische Philosophien und Ideologien, Herrschaftsformen"@de, "Political philosophies and ideologies, forms of rule"@en ;
   skos:notation "4.10" ;
   skos:broader <4.00> ;
-  skos:topConceptOf <scheme> ;
-  skos:inScheme <scheme> .
+  skos:topConceptOf <scheme> .
 
 <4.20> a skos:Concept ;
   skos:prefLabel "Politische Situation, Politische Prozesse und Politischer Wandel"@de, "Political situation, political processes and political change"@en ;
   skos:notation "4.20" ;
   skos:broader <4.00> ;
-  skos:topConceptOf <scheme> ;
-  skos:inScheme <scheme> .
+  skos:topConceptOf <scheme> .
 
 <4.30> a skos:Concept ;
   skos:prefLabel "Politisches System"@de, "Political system"@en ;
   skos:notation "4.30" ;
   skos:broader <4.00> ;
   skos:narrower <4.31>, <4.32>, <4.33>, <4.34>, <4.35>, <4.36> ;
-  skos:topConceptOf <scheme> ;
-  skos:inScheme <scheme> .
+  skos:topConceptOf <scheme> .
 
 <4.40> a skos:Concept ;
   skos:prefLabel "Politikfelder"@de, "Policy areas"@en ;
   skos:notation "4.40" ;
   skos:broader <4.00> ;
   skos:narrower <4.41>, <4.42>, <4.43>, <4.44>, <4.45> ;
-  skos:topConceptOf <scheme> ;
-  skos:inScheme <scheme> .
+  skos:topConceptOf <scheme> .
 
 <4.50> a skos:Concept ;
   skos:prefLabel "Innere Sicherheit und politische Kontrolle"@de, "Internal security and political control"@en ;
@@ -172,17 +168,17 @@
 <4.62> a skos:Concept ;
   skos:prefLabel "Autonomie-, Sezessions- und Unabhängigkeitsbewegungen, Bürgerkrieg"@de, "Autonomy, secession and independence movements, civil war"@en ;
   skos:notation "4.62" ;
-  skos:broader <4.50> ;
+  skos:broader <4.60> ;
   skos:inScheme <scheme> .
 
 <4.63> a skos:Concept ;
   skos:prefLabel "Bilaterale und regionale Konflikte und Kriege"@de, "Bilateral and regional conflicts and wars"@en ;
   skos:notation "4.63" ;
-  skos:broader <4.50> ;
+  skos:broader <4.60> ;
   skos:inScheme <scheme> .
 
 <4.64> a skos:Concept ;
   skos:prefLabel "Terrorismus und terroristische Aktivitäten"@de, "Terrorism and terrorist activities"@en ;
   skos:notation "4.64" ;
-  skos:broader <4.50> ;
+  skos:broader <4.60> ;
   skos:inScheme <scheme> .
