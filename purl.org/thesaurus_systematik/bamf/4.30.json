@@ -73,15 +73,6 @@
       "id": "http://purl.org/thesaurus_systematik/bamf/scheme"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "http://purl.org/thesaurus_systematik/bamf/scheme",
-      "title": {
-        "de": "Auszug aus dem systematischen Teil des Thesaurus",
-        "en": "Excerpt from the systematic section of the thesaurus"
-      }
-    }
-  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",
