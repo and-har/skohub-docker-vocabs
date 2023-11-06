@@ -9,7 +9,7 @@
   dct:description "Die Systematikgruppe 4 aus dem systematischen Teil des Thesaurus der Bibliothek des Bundesamts für Migration und Flüchtlinge"@de, "Classification group 4 from the systematic part of the thesaurus of the Library of the Federal Office for Migration and Refugees"@en ;
   dct:creator "http://viaf.org/viaf/26968941" ; #Identifier
   dct:issued "2022-01", "Version 4" ; #1.Angabe nach ISO 8601
-  skos:hasTopConcept <4.0>, <4.10>, <4.20>, <4.30>, <4.40>, <4.50>, <4.60>, <4.70>, <4.80>.
+  skos:hasTopConcept <4.00>, <4.10>, <4.20>, <4.30>, <4.40>, <4.50>, <4.60>, <4.70>, <4.80>.
 
 <4.00> a skos:Concept ;
   skos:prefLabel "Politik und Sicherheitsfragen"@de, "Political and security issues"@en ;
