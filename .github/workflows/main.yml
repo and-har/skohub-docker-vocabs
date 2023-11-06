@@ -82,7 +82,7 @@ jobs:
 
       - name: make .env file
 
-        run: echo "BASEURL=/skohub-docker-vocabs" > .env
+        run: echo "BASEURL=/thesaurus-systematik" > .env
 
       - name: build public dir with docker image
         run: >
