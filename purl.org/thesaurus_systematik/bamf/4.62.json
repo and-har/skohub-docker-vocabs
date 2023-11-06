@@ -8,6 +8,13 @@
   "notation": [
     "4.62"
   ],
+  "broader": {
+    "id": "http://purl.org/thesaurus_systematik/bamf/4.60",
+    "prefLabel": {
+      "de": "Politische Auseinandersetzungen und Konflikte, Bürgerkriege und Kriege, Terrorismus",
+      "en": "Political disputes and conflicts, civil wars and wars, terrorism"
+    }
+  },
   "inScheme": [
     {
       "id": "http://purl.org/thesaurus_systematik/bamf/scheme",

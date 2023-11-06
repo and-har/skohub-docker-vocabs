@@ -36,29 +36,15 @@
         "de": "Umgang mit Staatsangehörigen, die ihr HKL verlassen haben",
         "en": "Treatment of nationals who have left their COI"
       }
-    },
-    {
-      "id": "http://purl.org/thesaurus_systematik/bamf/4.62",
-      "prefLabel": {
-        "de": "Autonomie-, Sezessions- und Unabhängigkeitsbewegungen, Bürgerkrieg",
-        "en": "Autonomy, secession and independence movements, civil war"
-      }
-    },
-    {
-      "id": "http://purl.org/thesaurus_systematik/bamf/4.63",
-      "prefLabel": {
-        "de": "Bilaterale und regionale Konflikte und Kriege",
-        "en": "Bilateral and regional conflicts and wars"
-      }
-    },
-    {
-      "id": "http://purl.org/thesaurus_systematik/bamf/4.64",
-      "prefLabel": {
-        "de": "Terrorismus und terroristische Aktivitäten",
-        "en": "Terrorism and terrorist activities"
-      }
     }
   ],
+  "broader": {
+    "id": "http://purl.org/thesaurus_systematik/bamf/4.00",
+    "prefLabel": {
+      "de": "Politik und Sicherheitsfragen",
+      "en": "Political and security issues"
+    }
+  },
   "inScheme": [
     {
       "id": "http://purl.org/thesaurus_systematik/bamf/scheme",
