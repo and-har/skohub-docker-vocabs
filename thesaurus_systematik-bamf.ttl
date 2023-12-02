@@ -8,8 +8,9 @@
   skos:prefLabel "Thesaurus-Systematik (BAMF)"@de, "Thesaurus Nomenclature (FOMR)"@en ;
   dct:title "Thesaurus-Systematik (Bundesamt für Migration und Flüchtlinge)"@de, "Thesaurus Nomenclature (Federal Office for Migration and Refugees)"@en ;
   dct:description "Diese Systematik bildet die Grundlage, für die Klassifizierung von Deskriptoren, die in der Literaturdokumentation im Bundesamt für Migration und Flüchtlinge verwendet werden. (Auszug aus Version 4.0)"@de, "This nomenclature forms the basis for the classification of descriptors used in the literature documentation of the Federal Office for Migration and Refugees. (excerpt from version 4.0)"@en ;
-  dct:creator "http://viaf.org/viaf/26968941" ; #Identifier
-  dct:issued "2022-01", "Version 4.0" ; #1.Angabe nach ISO 8601
+  dct:creator "http://d-nb.info/gnd/10046457-9" ; #Identifier
+  dct:issued "2022-01-01" ; # nach ISO 8601
+  dct:license "https://creativecommons.org/licenses/by-nc-sa/4.0/" ;
   vann:preferredNamespaceUri "http://purl.org/thesaurus_systematik/bamf/" ;
   skos:hasTopConcept <4.00> .
 
