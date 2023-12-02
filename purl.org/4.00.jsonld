@@ -68,7 +68,7 @@
   ],
   "inScheme": [
     {
-      "id": "http://purl.org/bamf",
+      "id": "http://purl.org/thesaurus_systematik/bamf",
       "title": {
         "de": "Thesaurus-Systematik (Bundesamt für Migration und Flüchtlinge)",
         "en": "Thesaurus Nomenclature (Federal Office for Migration and Refugees)"
@@ -77,12 +77,12 @@
   ],
   "inSchemeAll": [
     {
-      "id": "http://purl.org/bamf"
+      "id": "http://purl.org/thesaurus_systematik/bamf"
     }
   ],
   "topConceptOf": [
     {
-      "id": "http://purl.org/bamf",
+      "id": "http://purl.org/thesaurus_systematik/bamf",
       "title": {
         "de": "Thesaurus-Systematik (Bundesamt für Migration und Flüchtlinge)",
         "en": "Thesaurus Nomenclature (Federal Office for Migration and Refugees)"
