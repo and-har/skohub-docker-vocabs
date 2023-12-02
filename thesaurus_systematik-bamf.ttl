@@ -3,7 +3,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 
-<bamf> a skos:ConceptScheme ;
+<thesaurus_systematik/bamf> a skos:ConceptScheme ;
   skos:prefLabel "Thesaurus-Systematik (BAMF)"@de, "Thesaurus Nomenclature (FOMR)"@en ;
   dct:title "Thesaurus-Systematik (Bundesamt für Migration und Flüchtlinge)"@de, "Thesaurus Nomenclature (Federal Office for Migration and Refugees)"@en ;
   dct:description "Diese Systematik bildet die Grundlage, für die Klassifizierung von Deskriptoren, die in der Literaturdokumentation im Bundesamt für Migration und Flüchtlinge verwendet werden. (Auszug aus Version 4.0)"@de, "This nomenclature forms the basis for the classification of descriptors used in the literature documentation of the Federal Office for Migration and Refugees. (excerpt from version 4.0)"@en ;
@@ -15,7 +15,7 @@
   skos:prefLabel "Politik und Sicherheitsfragen"@de, "Political and security issues"@en ;
   skos:notation "4.00" ;
   skos:narrower <4.10>, <4.20>, <4.30>, <4.40>, <4.50>, <4.60>, <4.70>, <4.80> ;
-  skos:topConceptOf <bamf> .
+  skos:topConceptOf <thesaurus_systematik/bamf> .
 
 <4.10> a skos:Concept ;
   skos:prefLabel "Politische Philosophien und Ideologien, Herrschaftsformen"@de, "Political philosophies and ideologies, forms of rule"@en ;
