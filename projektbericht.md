@@ -5,7 +5,7 @@ Bibliotheks- und Informationswissenschaft (MALIS)
 an der Fakultät für Informations- und Kommunikationswissenschaften
 der Technischen Hochschule Köln
 
-**vorgelegt von:** Benjamin Heu, Andreas Hartmann
+**vorgelegt von:** Vorgelegt von Andreas Hartmann und Benjamin Heu
 
 **eingereicht bei:** Adrian Pohl
 
