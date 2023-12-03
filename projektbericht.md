@@ -41,6 +41,7 @@ der Technischen Hochschule Köln
 - Wie kann man eine solchen Prozess sinnvoll in Arbeitspakete zerlegen?
 - Neben der Organisation über GitHub waren auch unregelmäßige Treffen Teil der Umsetzung, um Probleme zu schildern und neue Aufgaben zu definieren und zu verteilen
 - die Aufgabe T2.1a hat geholfen die Plattform GitHub und ihre Funktionen besser kennenzulernen
+- Änderungen am der Turtle-Datei wurden immer über direkt über das Repository committed und nicht in einer Verzweigung weiterentwickelt und später zusammengeführt
 
 ## **3. Probleme beim Einrichten des Repos**
 (**Aufgabe:** *"Probleme beim Einrichten des Repos (Wie kann die Dokumentation verbessert werden?)"*)
@@ -50,9 +51,12 @@ der Technischen Hochschule Köln
 - das korrkte Erstellen der der Turtle-Datei war ein Herausfoderung
 - zunächst war nicht klar welche "@base"-URL anzugeben ist
 - die Zusammenhänge zwischen Turtel-Datei und publiziertem Vokabular konnten in den meisten Fällen durch die Trial-and-Error-Methode gelöst werden
+- es ist nicht klar welche Einstellungen für eine effektive Zusammenarbeit am Repo gemacht werden müssen
 
 ## **4. Verständnis vor und nach Bearbeitung RDF/SKOS**
 (**Aufgabe:** *"Verständnis von RDF und SKOS vor und nach Bearbeitung der Aufgabe."*)
 
 ## **5. Ausblick und Nutzen/Anwendungsfälle**
 (**Aufgabe:** *"Ausblick: Was ist durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen? Welche Anwendungsfälle werden nun ermöglicht?"*)
+
+- zunächst müsste das Thesaurus-Systematik ohnehin zunächst in Gänze erfasst werden
