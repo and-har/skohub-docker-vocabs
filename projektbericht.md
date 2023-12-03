@@ -29,8 +29,27 @@ der Technischen Hochschule Köln
 ## **2. Zusammenarbeit mit GitHub**
 (**Aufgabe:** *"Zusammenarbeit mit git und auf GitHub und – falls Sie das nutzen – unter Pflege eines gemeinsamen Kanban Boards. Wie hat es funktioniert? Was wurde gelernt? Wo sind noch Probleme?"*)
 
+- die Zusammenarbeit erfolgte über ein Kanban Board in GitHub
+- Aufgaben wurde gemeinsam besprochen und dafür geeignete Arbeitsschritte definiert
+- mithilfe des Boards wurde die Zuständigkeiten verteilt, Startpunkt, Fälligkeit und Abschlussdatum definiert
+- da vorher noch kein Projekt mit einem Kanban Board oder der Plattform GitHub umgesetzt wurde, war die Bedienung und Orientierung auf der Plattform zunächst eine Herausfoderung
+- viele Komfort-Funktionen und Möglichkeiten wurde sicherlich auch aus diesem Grund nicht genutzt, da schlichtweg nicht bekannt
+- es war nicht immer einfach, vorab geeignete Arbeitsschritte (Arbeitspakete) festzulegen die in sich geschlossen umsetzbar waren
+- häufig waren mehrere Arbeitspaket voneinander abhängig oder in der Umsetzung ergaben sich Lösungen, die das Aufteilen von Arbeitspaketen überflüssig machten
+- diese Problematik ergibt sich sicherlich auch aus der fehlende Expertise bei der Umsetzung von IT-Projekten
+- es gestaltet sich auch als ziemlich schwierig jeden Schritt im Projekt gemeinsam zu gehen, da bestimmte Aufgaben sinnvoll nur durch eine Person umsetzbar waren, somit blieb die Erfahrung einer Person vorbehalten
+- Wie kann man eine solchen Prozess sinnvoll in Arbeitspakete zerlegen?
+- Neben der Organisation über GitHub waren auch unregelmäßige Treffen Teil der Umsetzung, um Probleme zu schildern und neue Aufgaben zu definieren und zu verteilen
+- die Aufgabe T2.1a hat geholfen die Plattform GitHub und ihre Funktionen besser kennenzulernen
+
 ## **3. Probleme beim Einrichten des Repos**
 (**Aufgabe:** *"Probleme beim Einrichten des Repos (Wie kann die Dokumentation verbessert werden?)"*)
+
+- das Repo wurde gemäß den bereitgestellten Orientierunghilfen eingerichtet
+- die Konfiguration für das Repo war gut nachvollziehbar
+- das korrkte Erstellen der der Turtle-Datei war ein Herausfoderung
+- zunächst war nicht klar welche "@base"-URL anzugeben ist
+- die Zusammenhänge zwischen Turtel-Datei und publiziertem Vokabular konnten in den meisten Fällen durch die Trial-and-Error-Methode gelöst werden
 
 ## **4. Verständnis vor und nach Bearbeitung RDF/SKOS**
 (**Aufgabe:** *"Verständnis von RDF und SKOS vor und nach Bearbeitung der Aufgabe."*)
