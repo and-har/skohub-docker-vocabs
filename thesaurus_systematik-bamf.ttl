@@ -107,7 +107,7 @@
   skos:inScheme <scheme> .
 
 <4.41> a skos:Concept ;
-  skos:prefLabel "Innenpolitik"@de, "Domestic politics"@en ;
+  skos:prefLabel "Innenpolitik"@de, "Domestic policy"@en ;
   skos:notation "4.41" ;
   skos:broader <4.40> ;
   skos:inScheme <scheme> .
