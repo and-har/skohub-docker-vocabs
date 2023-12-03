@@ -32,7 +32,7 @@ der Technischen Hochschule Köln
 - die Zusammenarbeit erfolgte über ein Kanban Board in GitHub
 - Aufgaben wurde gemeinsam besprochen und dafür geeignete Arbeitsschritte definiert
 - mithilfe des Boards wurde die Zuständigkeiten verteilt, Startpunkt, Fälligkeit und Abschlussdatum definiert
-- da vorher noch kein Projekt mit einem Kanban Board oder der Plattform GitHub umgesetzt wurde, war die Bedienung und Orientierung auf der Plattform zunächst eine Herausfoderung
+- da vorher noch kein Projekt mit einem Kanban Board oder der Plattform GitHub umgesetzt wurde, war die Bedienung und Orientierung auf der Plattform zunächst eine Herausforderung
 - viele Komfort-Funktionen und Möglichkeiten wurde sicherlich auch aus diesem Grund nicht genutzt, da schlichtweg nicht bekannt
 - es war nicht immer einfach, vorab geeignete Arbeitsschritte (Arbeitspakete) festzulegen die in sich geschlossen umsetzbar waren
 - häufig waren mehrere Arbeitspaket voneinander abhängig oder in der Umsetzung ergaben sich Lösungen, die das Aufteilen von Arbeitspaketen überflüssig machten
@@ -42,19 +42,25 @@ der Technischen Hochschule Köln
 - Neben der Organisation über GitHub waren auch unregelmäßige Treffen Teil der Umsetzung, um Probleme zu schildern und neue Aufgaben zu definieren und zu verteilen
 - die Aufgabe T2.1a hat geholfen die Plattform GitHub und ihre Funktionen besser kennenzulernen
 - Änderungen am der Turtle-Datei wurden immer über direkt über das Repository committed und nicht in einer Verzweigung weiterentwickelt und später zusammengeführt
+- Grundsätzlich war das Vorgehen vor allem in der Anfangsphase durch agile Elemente geprägt: Es wurde zunächst eine funktionierende Rumpffassung erstellt in die dann nach und nach die zusätzlichen Anforderungen eingearbeitet wurden
+- Von der ursprünglichen Vorgehensweise, die verschiedenen Elemente der Aufgabe auf mehrere Repositorien der beiden Accounts zu verteilen, die dann später zu einem gemeinsamen repositorium zusammengefügt werden sollten, wurde sehr schnell Abstand genommen, da sich dieses Voprgehen als unpraktisch und umständlich erwiesen hatte. 
 
 ## **3. Probleme beim Einrichten des Repos**
 (**Aufgabe:** *"Probleme beim Einrichten des Repos (Wie kann die Dokumentation verbessert werden?)"*)
 
 - das Repo wurde gemäß den bereitgestellten Orientierunghilfen eingerichtet
 - die Konfiguration für das Repo war gut nachvollziehbar
-- das korrkte Erstellen der der Turtle-Datei war ein Herausfoderung
+- das korrekte Erstellen der der Turtle-Datei war ein Herausfoderung
 - zunächst war nicht klar welche "@base"-URL anzugeben ist
 - die Zusammenhänge zwischen Turtel-Datei und publiziertem Vokabular konnten in den meisten Fällen durch die Trial-and-Error-Methode gelöst werden
 - es ist nicht klar welche Einstellungen für eine effektive Zusammenarbeit am Repo gemacht werden müssen
+- In manchen Fällen konnten die verlinkten Beispiel-Vokabulare auch Hinweise zur Syntax und dem grundsätzlichen Aufgabe von SKOS-Konzepten geben
+- Das verlinkte Tutorial war sehr hilfreich.
 
 ## **4. Verständnis vor und nach Bearbeitung RDF/SKOS**
 (**Aufgabe:** *"Verständnis von RDF und SKOS vor und nach Bearbeitung der Aufgabe."*)
+
+- Vor der Arbeit am Projekt gab es keine bzw. kaum Berührungspunkte mit SKOS oder RDF bzw. turtle
 
 ## **5. Ausblick und Nutzen/Anwendungsfälle**
 (**Aufgabe:** *"Ausblick: Was ist durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen? Welche Anwendungsfälle werden nun ermöglicht?"*)
