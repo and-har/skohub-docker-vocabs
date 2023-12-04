@@ -18,6 +18,11 @@
   "scopeNote": {
     "de": "institutionelle Komponente des staatlichen Sicherheitssektors (Aufbau, Struktur, Hierarchie)"
   },
+  "closeMatch": [
+    {
+      "id": "https://www.wikidata.org/wiki/Q1644340"
+    }
+  ],
   "inScheme": [
     {
       "id": "http://purl.org/thesaurus_systematik/bamf/scheme",
