@@ -8,6 +8,15 @@
   "notation": [
     "4.51"
   ],
+  "narrower": [
+    {
+      "id": "http://purl.org/thesaurus_systematik/bamf/Sicherheitsbehörde",
+      "prefLabel": {
+        "de": "Sicherheitsbehörde",
+        "en": "Security service"
+      }
+    }
+  ],
   "broader": {
     "id": "http://purl.org/thesaurus_systematik/bamf/4.50",
     "prefLabel": {

@@ -1,28 +1,12 @@
 {
-  "id": "http://purl.org/thesaurus_systematik/bamf/4.35",
+  "id": "http://purl.org/thesaurus_systematik/bamf/Sicherheitsbehörde",
   "type": "Concept",
   "prefLabel": {
-    "de": "Öffentliche Verwaltung, staatliche Gliederung",
-    "en": "Public administration, state structure"
+    "de": "Sicherheitsbehörde",
+    "en": "Security service"
   },
-  "notation": [
-    "4.35"
-  ],
-  "narrower": [
-    {
-      "id": "http://purl.org/thesaurus_systematik/bamf/Sicherheitsbehörde",
-      "prefLabel": {
-        "de": "Sicherheitsbehörde",
-        "en": "Security service"
-      }
-    }
-  ],
-  "broader": {
-    "id": "http://purl.org/thesaurus_systematik/bamf/4.30",
-    "prefLabel": {
-      "de": "Politisches System",
-      "en": "Political system"
-    }
+  "scopeNote": {
+    "de": "institutionelle Komponente des staatlichen Sicherheitssektors (Aufbau, Struktur, Hierarchie)"
   },
   "inScheme": [
     {
