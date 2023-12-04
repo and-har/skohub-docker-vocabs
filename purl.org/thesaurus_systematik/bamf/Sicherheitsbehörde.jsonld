@@ -5,6 +5,16 @@
     "de": "Sicherheitsbehörde",
     "en": "Security service"
   },
+  "altLabel": {
+    "de": [
+      "Sicherheitsdienst",
+      "Sicherheitsorgan",
+      "Sicherheitsapparat"
+    ],
+    "eng": [
+      "security apparatus"
+    ]
+  },
   "scopeNote": {
     "de": "institutionelle Komponente des staatlichen Sicherheitssektors (Aufbau, Struktur, Hierarchie)"
   },
