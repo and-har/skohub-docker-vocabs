@@ -190,5 +190,4 @@
   skos:prefLabel "Sicherheitsbehörde"@de, "Security service"@en ;
   skos:broader <4.35>, <4.51> ;
   skos:scopeNote "institutionelle Komponente des staatlichen Sicherheitssektors (Aufbau, Struktur, Hierarchie)"@de ;
-  skos:related "Militärischer Nachrichtendienst"@de, "Nachrichtendienst"@de ;
   skos:inScheme <scheme> .
