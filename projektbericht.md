@@ -15,7 +15,8 @@ der Technischen Hochschule Köln
 (**Aufgabe:** *"Beschreibung des gewählten Vokabulars (Anzahl der Deskriptoren, benutzten Sprachen etc.) seines Anwendungsbereichs und Begründung der Auswahl gerade dieses Vokabulars"*)
 
 - Verwendung im Bundesamt für Migration und Flüchtlinge in der Literaturdokumentation zur Klassifikation von Deskriptoren
-- die Deskriptoren werden den Systemstellen in der Systematik zugewiesen, auf diese Weise kann z.B. die Sy­n­o­ny­mie von Begriffen abgebildet werden, da diese je nach Systemstelle einen anderen Bedeutungskontext haben können z.B. (BEISPIEL)
+- die Deskriptoren werden den Systemstellen in der Systematik zugewiesen, auf diese Weise kann z.B. die Sy­n­o­ny­mie von Begriffen abgebildet werden, da diese je nach Systemstelle einen anderen Bedeutungskontext haben können z.B. der Deskriptor "Sicherheitsbehörde" ist sowohl der Systemstelle 4.35 für "Öffentliche Verwaltung, staatliche Gliederung" und 4.51 für "Polizei und nichtmilitärische Sicherheitsorgane" zugeordnet
+- die Systematik dient damit der klassifikatorischen Erschließung von Sachbegriffen
 - die Systematik basiert teilweise auf dem EMN Glossary on Asylum and Migration Classification und wurde für die Literaturdokumentation im Bundesamt aber um weitere Hauptgruppen erweitert
 - die Systeamtik besteht insgesamt auf elf Hauptgruppen und aus insgesamt 205 Systemstellen
 - im Rahmen des IT-Projekt wurde die Hauptgruppe 4.00 mit ihren Untergruppen umgesetzt
@@ -71,13 +72,16 @@ der Technischen Hochschule Köln
 - Vor der Arbeit am Projekt gab es keine bzw. kaum Berührungspunkte mit SKOS oder RDF bzw. turtle
 - RDF (Ressource Description Framwork) ist ein Datenmodel für Liked Open Data, dabei setzt sich jede Informartionseinheit aus drei Teilen nach dem Prinzip Subjekt, Prädikat, Objekt (Triple) zusammen (Entity-Relationship-Model)
 - RDF trifft Aussagen über Ressourcen
-- eine Serialiserung von RDF ist Turtle (Terse RDF Triple Language) und ermöglich ein gut lesbare textbasierte Darstellung von RDF-Graphen
+- eine Serialiserung von RDF ist Turtle (Terse RDF Triple Language) und ermöglich ein gut lesbare textbasierte Darstellung von RDF-Graphen 
 - SKOS (Simple Knowledge Organisation System) wiederrum ist ein Datenstandard der einen Namensraum bereitstellt, um kontrollierte Vokabulare im Semantic Web veröffentlichen, nutzen und verknüpfen zu können
+- 
 
 ## **5. Ausblick und Nutzen/Anwendungsfälle**
 (**Aufgabe:** *"Ausblick: Was ist durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen? Welche Anwendungsfälle werden nun ermöglicht?"*)
 
-- zunächst sollte die Thesaurus-Systematik komplett in SKOS übertragen werden
-- 
-- 
-  
+- zunächst sollte die Thesaurus-Systematik komplett in SKOS übertragen werden, alle 11 Hauptgruppen
+- anschließend können auch die Dekriptoren eingefügt und den Systemstellen zugeordnet werden (siehe Beispiel "Sicherheitsbehörden")
+- somit lässt sich Thesaurus-Systematik und Thesaurus miteinander verbinden
+- in diesem Zusammenhang können dann auch weitere SKOS-Proporties für die Deskriptoren eingesetzt werden wie z.B. altLabel und Mapping Properties zur Anbindung an andere kontrollierte Vokabulare wie z.B. Wikidata mit mappingRelation, closeMatch, exactMatch, broadMatch, narrowMatch, relatedMatch u.ä.
+- der Thesaurus wird auf diese Weise öffentlich zugänglich und kann von anderen Institutionen nachgenutzt werden
+- so könnten z.B. alle Behördenbibliotheken ihre eigene Thesaurus-Systmatiken mit der des Bundesamtes verknüpfen
