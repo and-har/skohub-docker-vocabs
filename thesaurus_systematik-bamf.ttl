@@ -98,6 +98,7 @@
   skos:prefLabel "Öffentliche Verwaltung, staatliche Gliederung"@de, "Public administration, state structure"@en ;
   skos:notation "4.35" ;
   skos:broader <4.30> ;
+  skos:narrower <Sicherheitsbehörde> ;
   skos:inScheme <scheme> .
 
 <4.36> a skos:Concept ;
@@ -140,6 +141,7 @@
   skos:prefLabel "Polizei und nichtmilitärische Sicherheitsorgane"@de, "Police and non-military security agencies"@en ;
   skos:notation "4.51" ;
   skos:broader <4.50> ;
+  skos:narrower <Sicherheitsbehörde> ;
   skos:inScheme <scheme> .
 
 <4.52> a skos:Concept ;
@@ -182,4 +184,11 @@
   skos:prefLabel "Terrorismus und terroristische Aktivitäten"@de, "Terrorism and terrorist activities"@en ;
   skos:notation "4.64" ;
   skos:broader <4.60> ;
+  skos:inScheme <scheme> .
+
+<Sicherheitsbehörde> a skos:Concept ;
+  skos:prefLabel "Sicherheitsbehörde"@de, "Security service"@en ;
+  skos:broader <4.35>, <4.51> ;
+  skos:scopeNote "institutionelle Komponente des staatlichen Sicherheitssektors (Aufbau, Struktur, Hierarchie)"@de ;
+  skos:related "Militärischer Nachrichtendienst"@de, "Nachrichtendienst"@de ;
   skos:inScheme <scheme> .
