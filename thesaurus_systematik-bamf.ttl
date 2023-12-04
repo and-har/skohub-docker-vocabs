@@ -189,7 +189,7 @@
 <Sicherheitsbehörde> a skos:Concept ;
   skos:prefLabel "Sicherheitsbehörde"@de, "Security service"@en ;
   skos:broader <4.35>, <4.51> ;
-  skos:altLabel "Sicherheitsdienst"@de, "Sicherheitsorgan"@de, "Sicherheitsapparat"@de , "security apparatus"@eng;
+  skos:altLabel "Sicherheitsdienst"@de, "Sicherheitsorgan"@de, "Sicherheitsapparat"@de , "security apparatus"@eng ;
   skos:scopeNote "institutionelle Komponente des staatlichen Sicherheitssektors (Aufbau, Struktur, Hierarchie)"@de ;
-  skos:exactMatch "https://www.wikidata.org/wiki/Q1644340" ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q1644340> ;
   skos:inScheme <scheme> .
