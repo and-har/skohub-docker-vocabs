@@ -1,99 +1,77 @@
-# SkoHub Docker Vocabs
+### MALIS 2023 Kleines IT2-Praxisprojekt in Zweier- oder Dreiergruppen
+# Publikation eines kontrollierten Vokabulars mit SkoHub Vocabs
 
-This is a example repository to show how you can publish your SKOS vocabulary using GitHub infrastructure.
+**Abgabefrist:** 27.01.2024<br>**Benotung:** Das Projekt zählt mit 50%iger Gewichtung zur Gesamtnote für das Modul
+IT2.<br>**Workload:** Maximal 50 Stunden pro Person
 
-Every time a push is made to the repository a GitHub-workflow-action is triggered to publish the most recent vocabulary to the `gh-pages`-branch, which is used by GitHub pages.
-It spins up a Docker-Container made out the [SkoHub-Vocabs](https://github.com/hbz/skohub-vocabs)-tool. You can have a look at the Dockerfile [at this branch of skohub-vocabs](https://github.com/skohub-io/skohub-vocabs/tree/docker-gh-pages).
+## Aufgabenstellung
+- Identifikation eines an der eigenen Einrichtung genutzten kontrollierten
+Vokabulars (Werteliste, Klassifikation, Thesaurus), das noch nicht in SKOS
+kodiert vorliegt.
+- Überführung des Vokabulars in eine SKOS-kodierte Repräsentation.
+- Publizieren des Vokabulars mit SkoHub Vocabs (Docker-Version, verfügbar
+über https://github.com/skohub-io/skohub-docker-vocabs).
 
-## Reuse
+## Ergebnisse:
+- git-Repositorium
+  - Projekt-Kanban-Board (optional)
+- Mit SkoHub Vocabs publiziertes SKOS-Vokabular
+- Projektbericht
 
-If you want to reuse this repo and have your vocabulary automatically pushed und published via GitHub-Pages, follow these steps (also explained [in these slides including screenshots](https://pad.gwdg.de/p/2022-11-30-swib22-skos-workshop-slides#/51)):
+## Bewertungskriterien
+- Methodik
+  - Auswahl des Vokabulars und kontextuelle Einordnung
+  - Organisation der Zusammenarbeit in einem GitHub-/GitLab-Repo, ggf. mit Kanban Board
+  - Wenn möglich, sinnvoll und umsetzbar semi-automatisierte Transformation nach SKOS
+- Der Bericht sollte idealerweise als Markdown-Datei im Projekt-Repo liegen, eine angemessene sprachliche Qualität haben und sinnvoll strukturiert sein.
+- Das Vokabular sollte
+  - entweder mindestens zwanzig SKOS-Konzepte umfassen, wobei die
+Textstrings (skos:prefLabel, dct:title, dct:description sowie ggf.
+skos:altLabel, skos:definition. skos:scopeNote) neben Deutsch in
+mindestens einer weiteren Sprache vorliegen
+  - oder mindestens 50 SKOS-Konzepte umfassen, die nur ein einer Sprache
+vorliegen müssen
+  - Das Gesamtvokabular soll neben dct:title und dct:description mindestens
+zwei weitere informative Aussagen enthalten.
+  - Neben den grundlegenden SKOS-Properties (hasTopConcept,
+topConceptOf, inScheme, prefLabel), sollten mindestens drei zusätzliche
+Properties sinnvoll genutzt werden.
+  - Alternativ zur Publikation eines größeren Vokabulars können auch mehrere
+kleine veröffentlicht werden.
+  - Idealerweise sollten langfristig verfügbare URIs verwendet werden, z.B.
+durch Nutzung von w3id.org oder purl.org.
 
-1. Fork this repo
+## Lernziele
+Die Teilnehmer:innen können nach der Bearbeitung der Aufgabe:
+- ein git-Repositorium auf GitHub forken und einrichten,
+- ein kontrolliertes Vokabular in strukturierter, maschinenlesbarer Form mit
+SKOS abbilden,
+- eine menschenlesbare Sicht des Vokabulars mit SkoHub Vocabs publizieren,
+- die Umsetzung reflektieren etwa anhand folgender Leitgedanken:
+  - Beschreibung des gewählten Vokabulars (Anzahl der Deskriptoren,
+benutzten Sprachen etc.) seines Anwendungsbereichs und Begründung
+der Auswahl gerade dieses Vokabulars
+  - Zusammenarbeit mit git und auf GitHub und – falls Sie das nutzen – unter
+Pflege eines gemeinsamen Kanban Boards. Wie hat es funktioniert? Was
+wurde gelernt? Wo sind noch Probleme?
+  - Probleme beim Einrichten des Repos (Wie kann die Dokumentation
+verbessert werden?)
+  - Verständnis von RDF und SKOS vor und nach Bearbeitung der Aufgabe.
+  - Ausblick: Was ist durch die SKOS-Repräsentation des Vokabulars und
+seiner Publikation im Web gewonnen? Welche Anwendungsfälle werden
+nun ermöglicht?
 
-2. go to the `.github/workflows/main.yml`-file, make sure to replace the following lines:
-
-- `run: git clone https://github.com/skohub-io/skohub-docker-vocabs.git data/` ⬅ adjust the path to point to **YOUR** repository
-- `run: echo "BASEURL=/skohub-docker-vocabs" > .env` ⬅ the `BASEURL` has to be set to **YOUR** repository name (only necessary if you changed the repository name; if you just forked and did not rename, leave it as it is)
-
-3. in your repository settings go to the "GitHub Pages" setting and select `gh-pages` as the branch your site is being built from. If it is not available yet, you might have to push something to your repo, so the GitHub-Action gets triggered or you can trigger it manually with going to "Actions" in the menubar, then select the workflow "Build /public and deploy..." and click "Run workflow". This way you can trigger the workflow automatically.
-
-4. after that your vocabulary will be automatically published every time a push to this repo is made.
-
-5. Any issues? Please open up a issue [here](https://github.com/skohub-io/skohub-docker-vocabs/issues)
-
-## Example workflow file
-
-```yaml
-name: Build /public and delpoy to gh-pages with docker container
-
-on:
-  push:
-    branches:
-      - master
-      - main
-      - gh-pages
-  workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'
-        required: true
-        default: 'warning'
-      tags:
-        description: 'Test scenario tags'
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
-        with:
-          persist-credentials: false
-
-      - name: remove public and data-dir if already exists
-        run: rm -rf public data
-
-      - run: mkdir public
-
-      - run: chmod -R 777 public # user in container is node which won't have write access to public
-
-      - run: mkdir data
-
-      - run: chmod -R 777 data # user in container is node which won't have write access to public
-
-      - run: git clone https://github.com/skohub-io/skohub-docker-vocabs.git data/ # <-- add link to your repo here
-
-      - name: make .env file
-
-        run: echo "BASEURL=/skohub-docker-vocabs" > .env
-
-      # below add link to your repo after -e GATSBY_REPOSITORY_URL=...
-      - name: build public dir with docker image
-        run: >
-          docker run
-          -v $(pwd)/public:/app/public
-          -v $(pwd)/data:/app/data
-          -v $(pwd)/.env:/app/.env
-          -e GATSBY_RESPOSITORY_URL=https://github.com/skohub-io/skohub-docker-vocabs.git
-          skohub/skohub-vocabs-docker:latest
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-```
-
-## FAQ
-
-- During the build I get an error saying `The requested URL returned error: 403`
-  - You maybe need to update permissions like described here: https://github.com/peaceiris/actions-gh-pages/issues/744
-  - Go to `Settings` > `Actions` > `General` > `Workflow permissions` and toggle the Read and write permissions
-
-## CHANGELOG
-
-09.02.2021:
-
-- In an earlier version, there was the .env variable `PATH_PREFIX` set to point to the repository the vocabulary is hosted at. To align with rest of code, this was changed to `BASEURL`.
-- The docker image now also support i18n
+## Orientierungshilfen
+- Einführung in SKOS am Beispiel von Open Educational Resources (OER):
+https://dini-ag-kim.github.io/skos-einfuehrung/
+- SkoHub-Slides eines SKOS-Workshops von 30. November 2022:
+https://pad.gwdg.de/p/2022-11-30-swib22-skos-workshop-slides
+  - Fork und Setup des SkoHub-Docker-Vocabs-Repositories wird Schritt für
+Schritt ab Folie 51 erläutert: https://pad.gwdg.de/p/2022-11-30-swib22-skos-workshop-slides#/51
+- Anleitung zur Konfiguration von Perma-URIs mit W3ID oder purl.org:
+https://git.io/JPWsI
+- Beispielvokabulare:
+  - Hochschulfächersystematik nach Destatis ([Vokabular](https://w3id.org/kim/hochschulfaechersystematik/scheme), [Repo](https://github.com/dini-ag-kim/hochschulfaechersystematik))
+  - Interdisziplinäre Forschungsfeldklassifikation ([Vokabular](https://w3id.org/kdsf-ffk/), [Repo](https://github.com/KDSF-FFK/kdsf-ffk))
+- Aufsetzen eines Kanban Boards mit GitHub Projects:
+https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects
