@@ -44,7 +44,7 @@ der Technischen Hochschule Köln
 - die Aufgabe T2.1a hat geholfen die Plattform GitHub und ihre Funktionen besser kennenzulernen
 - Änderungen am der Turtle-Datei wurden immer über direkt über das Repository committed und nicht in einer Verzweigung weiterentwickelt und später zusammengeführt
 - Grundsätzlich war das Vorgehen vor allem in der Anfangsphase durch agile Elemente geprägt: Es wurde zunächst eine funktionierende Rumpffassung erstellt in die dann nach und nach die zusätzlichen Anforderungen eingearbeitet wurden
-- Von der ursprünglichen Vorgehensweise, die verschiedenen Elemente der Aufgabe auf mehrere Repositorien der beiden Accounts zu verteilen, die dann später zu einem gemeinsamen repositorium zusammengefügt werden sollten, wurde sehr schnell Abstand genommen, da sich dieses Voprgehen als unpraktisch und umständlich erwiesen hatte. 
+- Von der ursprünglichen Vorgehensweise, die verschiedenen Elemente der Aufgabe auf mehrere Repositorien der beiden Accounts zu verteilen, die dann später zu einem gemeinsamen Repositorium zusammengefügt werden sollten, wurde sehr schnell Abstand genommen, da sich dieses Vorgehen als unpraktisch und umständlich erwiesen hatte. 
 
 ## **3. Probleme beim Einrichten des Repos**
 (**Aufgabe:** *"Probleme beim Einrichten des Repos (Wie kann die Dokumentation verbessert werden?)"*)
@@ -57,19 +57,21 @@ der Technischen Hochschule Köln
 - In manchen Fällen konnten die verlinkten Beispiel-Vokabulare auch Hinweise zur Syntax und dem grundsätzlichen Aufgabe von SKOS-Konzepten geben
 - es ist nicht klar welche Einstellungen für eine effektive Zusammenarbeit am Repo gemacht werden müssen
 - Das verlinkte Tutorial war sehr hilfreich
+- -Ebenso hilfreich waren die bereitgestellten Videos. 
 - hilfreich wäre es zukünftig die wichtigsten Informationen an einer Stelle zusammenzufassen, anstatt sehr viele verschiedene Orientierungshilfen bereitzustellen
 - Mithilfe der Einführung in SKOS konnte die .ttl-Datei in seinen Grundzügen angelegt werden
 - bei der Umsetzung der .ttl-Datei haben wird die Systematikstelle 4.00 zuerst in zwei Teile geteilt und später miteinander verbunden
 - eine Herausfoderung war es in diesem Fall die unterschiedlichen Schreibweisen zu vereinheitlichen und diese auch im Code zu erkennen z.B. 4.0 statt 4.00
 - die Hierarchie der einzelnen Systemstellen nach dem Verbinden korrekt abzubilden war ebenfalls eine Herausforderung
 - das Verbinden wurde händisch einfügen und nicht über eine Pull-Request umgesetzt, was mit der fehlende Kenntnis über den Arbeitsablauf in zusammenhängt GitHub
-- mittlerweile ist aber klar das Entwicklungen an einem Quellcode in GitHub zur Versionsverwaltung in der Regel in einem geforkten Branch erfolgen, sobald diese Weiterentwicklung abgeschlossen ist, kann die Änderung per Pull Request in den Quellcode übernommen werden sofern diese vorab akzeptiert wurde
+- mittlerweile ist aber klar, dass Entwicklungen an einem Quellcode in GitHub zur Versionsverwaltung in der Regel in einem geforkten Branch erfolgen, sobald diese Weiterentwicklung abgeschlossen ist, kann die Änderung per Pull Request in den Quellcode übernommen werden sofern diese vorab akzeptiert wurde
 - anschließend findet ein Merge zwischen Quellcode und Anpassung/Änderung statt
 
 ## **4. Verständnis vor und nach Bearbeitung RDF/SKOS**
 (**Aufgabe:** *"Verständnis von RDF und SKOS vor und nach Bearbeitung der Aufgabe."*)
 
 - Vor der Arbeit am Projekt gab es keine bzw. kaum Berührungspunkte mit SKOS oder RDF bzw. turtle
+- Basisinformationen zu den verschiedenen Elementen, der Syntax und dem Grundaufbau von SKOS bzw. turtle vermittelte wiederum das Tutorium.
 - RDF (Ressource Description Framwork) ist ein Datenmodel für Liked Open Data, dabei setzt sich jede Informartionseinheit aus drei Teilen nach dem Prinzip Subjekt, Prädikat, Objekt (Triple) zusammen (Entity-Relationship-Model)
 - RDF trifft Aussagen über Ressourcen
 - eine Serialiserung von RDF ist Turtle (Terse RDF Triple Language) und ermöglich ein gut lesbare textbasierte Darstellung von RDF-Graphen 
