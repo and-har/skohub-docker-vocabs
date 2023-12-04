@@ -82,7 +82,7 @@ der Technischen Hochschule Köln
 (**Aufgabe:** *"Ausblick: Was ist durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen? Welche Anwendungsfälle werden nun ermöglicht?"*)
 
 - zunächst sollte die Thesaurus-Systematik komplett in SKOS übertragen werden, alle 11 Hauptgruppen
-- anschließend können auch die Dekriptoren eingefügt und den Systemstellen zugeordnet werden (siehe Beispiel "Sicherheitsbehörden")
+- anschließend können auch die Dekriptoren eingefügt (allerdings ohne Begriffnotationen) und den Systemstellen zugeordnet werden (siehe Beispiel "Sicherheitsbehörden")
 - somit lässt sich Thesaurus-Systematik und Thesaurus miteinander verbinden
 - in diesem Zusammenhang können dann auch weitere SKOS-Proporties für die Deskriptoren eingesetzt werden wie z.B. altLabel und Mapping Properties zur Anbindung an andere kontrollierte Vokabulare wie z.B. Wikidata mit mappingRelation, closeMatch, exactMatch, broadMatch, narrowMatch, relatedMatch u.ä.
 - der Thesaurus wird auf diese Weise öffentlich zugänglich und kann von anderen Institutionen nachgenutzt werden
