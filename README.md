@@ -26,15 +26,15 @@ kodiert vorliegt.
 - Der Bericht sollte idealerweise als Markdown-Datei im Projekt-Repo liegen, eine angemessene sprachliche Qualität haben und sinnvoll strukturiert sein.
 - Das Vokabular sollte
   - entweder mindestens zwanzig SKOS-Konzepte umfassen, wobei die
-Textstrings (skos:prefLabel, dct:title, dct:description sowie ggf.
-skos:altLabel, skos:definition. skos:scopeNote) neben Deutsch in
+Textstrings (`skos:prefLabel`, `dct:title`, `dct:description` sowie ggf.
+`skos:altLabel`, `skos:definition`, `skos:scopeNote`) neben Deutsch in
 mindestens einer weiteren Sprache vorliegen
   - oder mindestens 50 SKOS-Konzepte umfassen, die nur ein einer Sprache
 vorliegen müssen
-  - Das Gesamtvokabular soll neben dct:title und dct:description mindestens
+  - Das Gesamtvokabular soll neben `dct:title` und `dct:description` mindestens
 zwei weitere informative Aussagen enthalten.
-  - Neben den grundlegenden SKOS-Properties (hasTopConcept,
-topConceptOf, inScheme, prefLabel), sollten mindestens drei zusätzliche
+  - Neben den grundlegenden SKOS-Properties (`hasTopConcept`,
+`topConceptOf`, `inScheme`, `prefLabel`), sollten mindestens drei zusätzliche
 Properties sinnvoll genutzt werden.
   - Alternativ zur Publikation eines größeren Vokabulars können auch mehrere
 kleine veröffentlicht werden.
