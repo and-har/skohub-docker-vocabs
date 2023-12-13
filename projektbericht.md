@@ -1,16 +1,36 @@
 # **Publikation eines kontrollierten Vokabulars mit SkoHub Vocabs**
-## **Projektbericht**
-### **MALIS 23.2 - Kleines Projekt IT2**
-Bibliotheks- und Informationswissenschaft (MALIS)
-an der Fakultät für Informations- und Kommunikationswissenschaften
-der Technischen Hochschule Köln
+## **Projektbericht im Modul MALIS 23.2 IT 2 - Dozent: Adrian Pohl** 
+### **Aufgabe: Kleines Projekt IT 2**
 
-**vorgelegt von:** Andreas Hartmann und Benjamin Heu
+**vorgelegt von:**
 
-**eingereicht bei:** Adrian Pohl
+
+**Andreas Hartmann**
+
+XX
+
+Matrikelnummer: 
+
+und 
+
+
+**Benjamin Helmut Heu**
+
+benjamin_helmut.heu@smail.th-koeln.de
+
+Matrikelnummer: 11188281
 
 
 ## **1. Beschreibung des gewählte Vokabulars**
+
+Es wurde sich für ein Vokabular entschieden, das im _Bundesamt für Migration und Flüchtlinge_ in der Literaturdokumentation zur Klassifikation von Deskriptoren verwendet wird. Dabei werden die Deskriptoren den Systemstellen der Systematik zugewiesen. Auf diese Weise kann unter anderem die Sy­n­o­ny­mie von Begriffen abgebildet werden, die je nach Systemstelle einen anderen Bedeutungskontext haben können. So ist etwa der Deskriptor "_Sicherheitsbehörde_" sowohl der Systemstelle 4.35 für "_Öffentliche Verwaltung, staatliche Gliederung_" als auch 4.51 für "_Polizei und nichtmilitärische Sicherheitsorgane_" zugeordnet. Die Systematik dient somit der klassifikatorischen Erschließung von Sachbegriffen.
+
+Inhaltlich basiert die Systematik teilweise auf der _EMN Glossary on Asylum and Migration Classification_, wurde für die Literaturdokumentation des Bundesamtes jedoch ergänzt. Zum jetzigen Stand besteht sie insgesamt aus elf Hauptgruppen und 205 Systemstellen, von denen im Rahmen des Projektes die Hauptgruppe 4.00 mit ihren Untergruppen ausgewählt und ins Englische übersetzt wurde. Die Hauptgruppe 4.00 umfasst insgesamt acht Teilgruppen (4.10 bis 4.80), von denen die Gruppen 4.30 bis 4.60 wiederum weitere Untergruppen enthalten. Daraus ergeben sich insgesamt 27 Systemstellen, die im Rahmen des Projektes bearbeitet wurden.
+
+Bisher existiert keine geeignete Software zur Verwaltung und Pflege der Thesaurus-Systematik. Außerdem ist der Export in ein anderes System aktuell mit einem großen Aufwand verbunden, da die Systematik in keinem Austauschformat vorliegt. Die Übertragung der Thesaurus-Systematik in das SKOS-Format ist daher ein erster wichtiger Schritt für den Datenaustausch und -export sowie das Anlegen von Crosskonkordanzen zu anderen Systematiken.
+
+
+
    
 (**Aufgabe:** *"Beschreibung des gewählten Vokabulars (Anzahl der Deskriptoren, benutzten Sprachen etc.) seines Anwendungsbereichs und Begründung der Auswahl gerade dieses Vokabulars"*)
 
