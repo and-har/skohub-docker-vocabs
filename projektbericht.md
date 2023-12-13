@@ -48,6 +48,24 @@ Bisher existiert keine geeignete Software zur Verwaltung und Pflege der Thesauru
 - die Übersetzung der Thesaurus-Systematik in das SKOS-Format wäre daher ein erster wichtiger Schritt für den Datenaustausch und -export sowie das Anlegen von Crosskonkordanzen zu anderen Systematiken
 
 ## **2. Zusammenarbeit mit GitHub**
+
+Grundsätzlich war das Vorgehen vor allem in der Anfangsphase durch _agile Elemente_ geprägt: Es wurde zunächst eine funktionierende Kernfassung unserer Turtle-Datei erstellt, in die dann nach und nach die zusätzlichen Anforderungen eingearbeitet wurden.
+
+Von der ursprünglichen Vorgehensweise, die verschiedenen Elemente der Aufgabe auf mehrere Repositorien unserer beiden Accounts zu verteilen, die dann später zu einem gemeinsamen Repositorium zusammengefügt werden sollten, wurde sehr schnell Abstand genommen, da sich dieses Vorgehen als unpraktisch und sehr umständlich erwiesen hatte.
+
+Die Zusammenarbeit erfolgte stattdessen über ein _Kanban Board in GitHub_. Dazu wurden zunächst Aufgaben gemeinsam besprochen und geeignete Arbeitsschritte bzw. -pakete festgelegt. Anschließend wurden mithilfe des Boards Zuständigkeiten verteilt und sowohl Startpunkt, Fälligkeit und Abschlussdatum fixiert. Diese Festlegungen erfolgten zumeist während unregelmäßiger Zoom-Treffen, die außerdem dazu dienten, komplexe Probleme zu besprechen und die zuvor genannten Aufgaben zu verteilen.
+
+Die konkrete Arbeit an der Turtle-Datei gestaltete sich so, dass Änderungen immer direkt über das Repositorium committed und nicht in einer Verzweigung weiterentwickelt und später zusammengeführt wurden.
+
+Die Aufgabe T2.1a hat uns zwar geholfen, die Plattform GitHub und ihre Funktionen kennenzulernen, dennoch hielt die Bearbeitung des Projekts einige _Schwierigkeiten_ bereit. Drei Punkte sollen besonders genannt werden:
+
+- Da vorher noch kein Projekt mit einem Kanban Board oder der Plattform GitHub umgesetzt wurde, war die _Bedienung und Orientierung auf der Plattform_ zunächst eine Herausforderung. Viele Komfort-Funktionen und Möglichkeiten wurden mutmaßlich aus diesem Grund nicht genutzt, da sie uns nicht bekannt waren.
+
+- Als besondere Herausforderung stellte sich die _Abgrenzung geeigneter Arbeitspakte_ dar, die in sich geschlossen umsetzbar waren. So stellte sich wiederholt heraus, dass mehrere Arbeitsschritte voneinander abhängig waren oder es ergaben sich in der Bearbeitung Lösungen, die das Festhalten an bestimmten Aufteilungen überflüssig machten. Die fehlende Expertise in der Umsetzung von IT-Projekten trug hierzu nicht unwesentlich bei.
+
+- Es gestaltete sich außerdem an einigen Punkten schwierig, _jeden Schritt im Projekt gemeinsam_ zu gehen, da bestimmte Aufgaben nur durch eine Person sinnvoll umsetzbar waren. Trotz des regen Austauschs blieb die damit verbundene Erfahrung einer Person vorbehalten.
+
+
 (**Aufgabe:** *"Zusammenarbeit mit git und auf GitHub und – falls Sie das nutzen – unter Pflege eines gemeinsamen Kanban Boards. Wie hat es funktioniert? Was wurde gelernt? Wo sind noch Probleme?"*)
 
 - die Zusammenarbeit erfolgte über ein Kanban Board in GitHub
