@@ -21,7 +21,7 @@ benjamin_helmut.heu@smail.th-koeln.de
 Matrikelnummer: 11188281
 
 
-## **1. Beschreibung des gewählte Vokabulars**
+## **1. Beschreibung des gewählten Vokabulars**
 
 Es wurde sich für ein Vokabular entschieden, das im _Bundesamt für Migration und Flüchtlinge_ in der Literaturdokumentation zur Klassifikation von Deskriptoren verwendet wird. Dabei werden die Deskriptoren den Systemstellen der Systematik zugewiesen. Auf diese Weise kann unter anderem die Sy­n­o­ny­mie von Begriffen abgebildet werden, die je nach Systemstelle einen anderen Bedeutungskontext haben können. So ist etwa der Deskriptor "_Sicherheitsbehörde_" sowohl der Systemstelle 4.35 für "_Öffentliche Verwaltung, staatliche Gliederung_" als auch 4.51 für "_Polizei und nichtmilitärische Sicherheitsorgane_" zugeordnet. Die Systematik dient somit der klassifikatorischen Erschließung von Sachbegriffen.
 
@@ -85,6 +85,26 @@ Die Aufgabe T2.1a hat uns zwar geholfen, die Plattform GitHub und ihre Funktione
 - Von der ursprünglichen Vorgehensweise, die verschiedenen Elemente der Aufgabe auf mehrere Repositorien der beiden Accounts zu verteilen, die dann später zu einem gemeinsamen Repositorium zusammengefügt werden sollten, wurde sehr schnell Abstand genommen, da sich dieses Vorgehen als unpraktisch und umständlich erwiesen hatte. 
 
 ## **3. Probleme beim Einrichten des Repos**
+
+Das Repositorium wurde von uns gemäß den bereitgestellten Orientierungshilfen (vor allem der Workshop-Präsentationen) eingerichtet. Besonders die dort beschriebene Konfiguration des Repositoriums war für uns gut nachvollziehbar. Ebenso hilfreich waren für uns die bereitgestellten Videos und das verlinkte Tutorial zur Einführung in SKOS. In manchen Fällen konnten außerdem den verlinkten Beispiel-Vokabularen Hinweise zu einer sinnvollen Syntax und der Zielsetzung von SKOS-Konzepten entnommen werden.
+
+Bei der Umsetzung der Turtle-Datei haben wird den Systematik-Bereich 4.00 zunächst unter uns aufgeteilt und getrennt bearbeitet und sie später miteinander verbunden. Eine Herausforderung war es in diesem Fall, die unterschiedlichen Schreibweisen zu vereinheitlichen und diese auch im Code zu erkennen (z.B. 4.0 statt 4.00). Auf diese Weise konnten wir die Turtle-Datei relativ rasch in ihren Grundzügen anlegen.
+
+Trotz dieser positiven Bilanz erwies sich für uns die Behebung einiger _Probleme_ als herausfordernd.
+
+- Unklarheiten bestanden zunächst hinsichtlich möglicher Einstellungen für eine effektive Zusammenarbeit am Repositorium.
+  
+- Die Zusammenhänge zwischen turtel-Datei und publiziertem Vokabular konnten in den meisten Fällen durch die Trial-and-Error-Methode gelöst werden.
+  
+- Zunächst war uns außerdem nicht klar, welche "@base"-URL anzugeben ist und dass eine Verknüpfung zu den permanenten URIs besteht.
+  
+- Das oben angedeutete Vorgehen (Aufteilen und Verbinden) war insofern herausfordernd, dass die Hierarchie der einzelnen Systemstellen nach der Verbindung korrekt abgebildet werden musste. Das Verbinden selbst wurde manuell und nicht über eine Pull-Request umgesetzt, was unserer fehlenden Kenntnis der maschinellen Arbeitsabläufe in GitHub geschuldet war. Mittlerweile ist aber klar, dass Entwicklungen an einem Quellcode in GitHub zur Versionsverwaltung in der Regel in einem geforkten Branch erfolgen. Sobald diese Weiterentwicklung abgeschlossen ist, kann die Änderung per Pull Request in den Quellcode übernommen werden sofern diese vorab akzeptiert wurde. Anschließend findet ein Merge zwischen Quellcode und Anpassung bzw. Änderung statt.
+
+Generell gilt: Es wäre aus unserer Sicht zudem hilfreich, zukünftig die wichtigsten Informationen an einer Stelle zu bündeln, anstatt sehr viele verschiedene Orientierungshilfen bereitzustellen.
+
+
+
+
 (**Aufgabe:** *"Probleme beim Einrichten des Repos (Wie kann die Dokumentation verbessert werden?)"*)
 
 - das Repo wurde gemäß den bereitgestellten Orientierunghilfen (Workshop-Präsentationen) eingerichtet
@@ -106,6 +126,19 @@ Die Aufgabe T2.1a hat uns zwar geholfen, die Plattform GitHub und ihre Funktione
 - anschließend findet ein Merge zwischen Quellcode und Anpassung/Änderung statt
 
 ## **4. Verständnis vor und nach Bearbeitung RDF/SKOS**
+
+
+Vor der Arbeit am Projekt gab es für uns keine bzw. kaum Berührungspunkte mit SKOS oder RDF bzw. Turtle. Basisinformationen zu den verschiedenen Elementen, der Syntax und dem Grundaufbau von SKOS bzw. Turtle vermittelte – wie bereits erwähnt – das Tutorium.
+
+_RDF_ (Ressource Description Framwork) ist demzufolge ein Datenmodel für Liked Open Data, in dem sich jede Informationseinheit aus drei Teilen nach dem Prinzip Subjekt, Prädikat, Objekt (Triple) zusammensetzt (Entity-Relationship-Model). RDF trifft also Aussagen über Ressourcen.
+
+_Turtle_ (Terse RDF Triple Language) ist eine Serialiserung von RDF, wodurch eine gut lesbare, textbasierte Darstellung von RDF-Graphen möglich wird.
+
+_SKOS_ (Simple Knowledge Organisation System) wiederrum ist ein Datenstandard der einen Namensraum bereitstellt, um kontrollierte Vokabulare im Semantic Web veröffentlichen, nutzen und verknüpfen zu können.
+
+
+
+
 (**Aufgabe:** *"Verständnis von RDF und SKOS vor und nach Bearbeitung der Aufgabe."*)
 
 - Vor der Arbeit am Projekt gab es keine bzw. kaum Berührungspunkte mit SKOS oder RDF bzw. turtle
@@ -117,6 +150,15 @@ Die Aufgabe T2.1a hat uns zwar geholfen, die Plattform GitHub und ihre Funktione
 - 
 
 ## **5. Ausblick und Nutzen/Anwendungsfälle**
+
+Ein wichtiger erster Schritt wäre zunächst die _komplette Übertragung der Thesaurus-Systematik in SKOS_, also die Einarbeitung aller 11 Hauptgruppen statt lediglich des Bereichs 4.00. Anschließend können auch die Deskriptoren eingefügt (allerdings ohne Begriffsnotationen) und den Systemstellen zugeordnet werden (siehe Beispiel "Sicherheitsbehörden"). Auf diese Weise ließen sich Thesaurus-Systematik und Thesaurus miteinander verbinden.
+
+In diesem Zusammenhang könnten dann auch _weitere SKOS-Properties_ für die Deskriptoren eingesetzt werden wie z.B. altLabel und Mapping Properties zur Anbindung an andere kontrollierte Vokabulare wie z.B. Wikidata mit mappingRelation, closeMatch, exactMatch, broadMatch, narrowMatch, relatedMatch u.ä. Der Thesaurus würde auf diese Weise öffentlich zugänglich gemacht werden und könnte von anderen Institutionen nachgenutzt werden. So könnten schließlich etwa alle Behördenbibliotheken ihre jeweils eigenen Thesaurus-Systematiken mit der des Bundesamtes verknüpfen.
+
+
+
+
+
 (**Aufgabe:** *"Ausblick: Was ist durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen? Welche Anwendungsfälle werden nun ermöglicht?"*)
 
 - zunächst sollte die Thesaurus-Systematik komplett in SKOS übertragen werden, alle 11 Hauptgruppen
