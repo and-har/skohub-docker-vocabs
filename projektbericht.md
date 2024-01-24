@@ -7,18 +7,10 @@
 
 **Andreas Hartmann**
 
-XX
-
-Matrikelnummer: 
-
 und 
-
 
 **Benjamin Helmut Heu**
 
-benjamin_helmut.heu@smail.th-koeln.de
-
-Matrikelnummer: 11188281
 
 
 ## **1. Beschreibung des gewählten Vokabulars**
