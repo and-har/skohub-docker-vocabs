@@ -14,13 +14,13 @@ und
 
 ## Inhaltsübersicht
 
-- [1. Beschreibung des gewählten Vokabulars] (#1. Beschreibung des gewählten Vokabulars)
+- [1. Beschreibung des gewählten Vokabulars] (#1.)
 - [2. Zusammenarbeit mit Github] (#2. Zusammenarbeit mit Github)
 - [3. Probleme beim Einrichten des Repos] (#3. Probleme beim Einrichten des Repos)
 - [4. Verständnis vor und nach Bearbeitung RDF/SKOS] (#4. Verständnis vor und nach Bearbeitung RDF/SKOS)
 - [5. Ausblick und Nutzen/Anwendungsfälle] (#5. Ausblick und Nutzen/Anwendungsfälle)
 
-
+<a name="1."></a>
 ## **1. Beschreibung des gewählten Vokabulars**
 
 Es wurde sich für ein Vokabular entschieden, das im _Bundesamt für Migration und Flüchtlinge_ in der Literaturdokumentation zur Klassifikation von Deskriptoren verwendet wird. Dabei werden die Deskriptoren den Systemstellen der Systematik zugewiesen. Auf diese Weise kann unter anderem die Sy­n­o­ny­mie von Begriffen abgebildet werden, die je nach Systemstelle einen anderen Bedeutungskontext haben können. So ist etwa der Deskriptor "_Sicherheitsbehörde_" sowohl der Systemstelle 4.35 für "_Öffentliche Verwaltung, staatliche Gliederung_" als auch 4.51 für "_Polizei und nichtmilitärische Sicherheitsorgane_" zugeordnet. Die Systematik dient somit der klassifikatorischen Erschließung von Sachbegriffen.
