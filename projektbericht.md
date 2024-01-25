@@ -12,6 +12,14 @@ und
 **Benjamin Heu**
 
 
+## Inhaltsübersicht
+
+- [1. Beschreibung des gewählten Vokabulars] (#1. Beschreibung des gewählten Vokabulars)
+- [2. Zusammenarbeit mit Github] (#2. Zusammenarbeit mit Github)
+- [3. Probleme beim Einrichten des Repos] (#3. Probleme beim Einrichten des Repos)
+- [4. Verständnis vor und nach Bearbeitung RDF/SKOS] (#4. Verständnis vor und nach Bearbeitung RDF/SKOS)
+- [5. Ausblick und Nutzen/Anwendungsfälle] (#5. Ausblick und Nutzen/Anwendungsfälle)
+
 
 ## **1. Beschreibung des gewählten Vokabulars**
 
