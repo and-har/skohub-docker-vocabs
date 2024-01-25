@@ -15,9 +15,9 @@ und
 ## Inhaltsübersicht
 
 - [1. Beschreibung des gewählten Vokabulars] (#1)
-- [2. Zusammenarbeit mit Github] (#2. Zusammenarbeit mit Github)
-- [3. Probleme beim Einrichten des Repos] (#3. Probleme beim Einrichten des Repos)
-- [4. Verständnis vor und nach Bearbeitung RDF/SKOS] (#4. Verständnis vor und nach Bearbeitung RDF/SKOS)
+- [2. Zusammenarbeit auf Github] (#2. Zusammenarbeit mit Github)
+- [3. Probleme beim Einrichten des Repositoriums] (#3. Probleme beim Einrichten des Repos)
+- [4. Verständnis von RDF/SKOS vor und nach Bearbeitung] (#4)
 - [5. Ausblick und Nutzen/Anwendungsfälle] (#5. Ausblick und Nutzen/Anwendungsfälle)
 
 <a name="1"></a>
@@ -47,7 +47,7 @@ Bisher existiert keine geeignete Software zur Verwaltung und Pflege der Thesauru
 - bisher exisitert keine geeignete Software zur Verwaltung und Pflege der Thesaurus-Systematik, ebenso ist der Export in ein anderes System aktuelle mit großem Aufwand verbunden, da die Systematik in keinem Austauschformat vorliegt
 - die Übersetzung der Thesaurus-Systematik in das SKOS-Format wäre daher ein erster wichtiger Schritt für den Datenaustausch und -export sowie das Anlegen von Crosskonkordanzen zu anderen Systematiken
 
-## **2. Zusammenarbeit mit GitHub**
+## **2. Zusammenarbeit auf GitHub**
 
 Grundsätzlich war das Vorgehen vor allem in der Anfangsphase durch _agile Elemente_ geprägt: Es wurde zunächst eine funktionierende Kernfassung unserer Turtle-Datei erstellt, in die dann nach und nach die zusätzlichen Anforderungen eingearbeitet wurden.
 
