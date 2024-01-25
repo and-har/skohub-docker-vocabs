@@ -2,7 +2,7 @@
 ## **Projektbericht im Modul MALIS 23.2 IT 2 - Dozent: Adrian Pohl** 
 ### **Aufgabe: Kleines Projekt IT 2**
 
-**vorgelegt von:**
+vorgelegt von:
 
 
 **Andreas Hartmann**
