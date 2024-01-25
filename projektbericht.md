@@ -13,8 +13,7 @@ und
 
 
 ## Inhaltsübersicht
-
-- [1. Beschreibung des gewählten Vokabulars] (#1)
+[1. Beschreibung des gewählten Vokabulars] (#1)
 - [2. Zusammenarbeit auf Github] (#2. Zusammenarbeit mit Github)
 - [3. Probleme beim Einrichten des Repositoriums] (#3. Probleme beim Einrichten des Repos)
 - [4. Verständnis von RDF/SKOS vor und nach Bearbeitung] (#4)
